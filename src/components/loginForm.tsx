@@ -14,7 +14,7 @@ const LoginForm = () => {
       <h1>Login</h1>
       <ReactFormGenerator
         formData={loginFormData}
-        buttonTitle={"Login"}
+        buttonTitle="Login"
         onSubmit={onSubmit}
       />
     </LoginFormContainer>
