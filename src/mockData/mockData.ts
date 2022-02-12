@@ -75,11 +75,11 @@ export const SurveyFormData = [
         },
         {
           type: "min",
-          params: [5, "Name can't be less than 5 characters"],
+          params: [3, "Name can't be less than 5 characters"],
         },
         {
           type: "max",
-          params: [10, "Name can't be more than 10 characters"],
+          params: [30, "Name can't be more than 10 characters"],
         },
       ],
     },
@@ -96,14 +96,6 @@ export const SurveyFormData = [
         {
           type: "required",
           params: ["Email is required"],
-        },
-        {
-          type: "min",
-          params: [5, "Email can't be less than 5 characters"],
-        },
-        {
-          type: "max",
-          params: [20, "Email can't be more than 20 characters"],
         },
         {
           type: "email",
