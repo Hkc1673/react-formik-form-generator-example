@@ -27,6 +27,7 @@ export const SurveyFormContainer = styled.div`
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   border-radius: 5px;
   padding: 30px 50px;
+  margin-bottom: 50px;
   h1 {
     letter-spacing: 1px;
     color: #00b4ef;

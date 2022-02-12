@@ -8,7 +8,7 @@ function App() {
   return (
     <AppContainer>
       <Button onClick={() => setIsSurvey(!isSurvey)}>
-        {isSurvey ? "Login Form" : "Survey Form"}
+        {isSurvey ? "Go To Login Form Example" : "Go To Survey Form Example"}
       </Button>
       {!isSurvey && <LoginForm />}
 
