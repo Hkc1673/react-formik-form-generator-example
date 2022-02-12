@@ -12,7 +12,7 @@ export const LoginFormContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20%;
+  width: 320px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
   margin-top: 50px;
@@ -28,6 +28,9 @@ export const SurveyFormContainer = styled.div`
   border-radius: 5px;
   padding: 30px 50px;
   margin-bottom: 50px;
+  @media (max-width: 768px) {
+    width: 320px;
+  }
   h1 {
     letter-spacing: 1px;
     color: #00b4ef;
