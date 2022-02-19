@@ -58,6 +58,25 @@ export const loginFormData = [
     },
   ];
 
+  export const loginButtonStyle = {
+    buttonTitle: "Login",
+    buttonStyle: {
+      color: "#fff",
+      backgroundColor: "#fff",
+      height: "40px",
+      width: "100%",
+      marginLeft:"20px",
+      fontSize: "20px",
+      fontWeight: "600",
+      borderRadius: "10px",
+      backgroundImage: `radial-gradient(
+        100% 100% at 100% 0,
+        #5adaff 0,
+        #5468ff 100%
+      )`
+    },
+  };
+
 export const SurveyFormData = [
     {
       id: "name",
